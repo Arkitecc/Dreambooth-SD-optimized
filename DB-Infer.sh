@@ -9,5 +9,6 @@ python /home/user/Dreambooth-SD-optimized/scripts/stable_txt2img.py \
  --n_iter 4 \
  --scale 11.0 \
  --ddim_steps 50 \
+ --skip_grid \
  --ckpt "/home/user/Dreambooth-SD-optimized/trained_models/chris_model.ckpt" \
  --prompt "$PROMPT"
