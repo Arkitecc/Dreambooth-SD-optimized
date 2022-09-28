@@ -117,5 +117,5 @@ lightning:
 
   trainer:
     benchmark: True
-    max_steps: 800
+    max_steps: 1300
 #    precision: 'bf16'
