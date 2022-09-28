@@ -23,6 +23,7 @@ git clone https://github.com/Arkitecc/Dreambooth-SD-optimized
 mkdir -p /home/user/Dreambooth-SD-optimized/outputs/txt2img-samples/samples/
 mkdir -p /home/user/Dreambooth-SD-optimized/training_samples
 mkdir -p /home/user/Dreambooth-SD-optimized/trained_models
+mkdir -p /home/user/Dreambooth-SD-optimized/outputs/trained_generations
 cd /home/user/Dreambooth-SD-optimized/
 conda env create -f environment.yaml
 conda activate ldm

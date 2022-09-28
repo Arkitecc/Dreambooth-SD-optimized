@@ -57,7 +57,7 @@ def main():
         type=str,
         nargs="?",
         help="dir to write results to",
-        default="outputs/txt2img-samples"
+        default="outputs/trained_generations"
     )
     parser.add_argument(
         "--skip_grid",
