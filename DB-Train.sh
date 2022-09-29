@@ -1,7 +1,7 @@
 #!/bin/bash
 project_name="chris"
 batch_size=394
-class_word="man"
+class_word="person"
 reg_data_root="/home/user/Dreambooth-SD-optimized/outputs/txt2img-samples/samples/"
 
 python3 /home/user/Dreambooth-SD-optimized/main.py \

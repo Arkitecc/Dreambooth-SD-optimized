@@ -14,6 +14,7 @@ sudo n stable
 sudo npm install -g localtunnel
 sudo npm i cloudcmd -g --force
 
+
 cd /home/user/
 curl -LO https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
 bash Anaconda3-2022.05-Linux-x86_64.sh -b -u
@@ -29,3 +30,6 @@ conda env create -f environment.yaml
 conda activate ldm
 pip3 install diffusers[training]==0.3.0
 wget $CHECKPOINT
+echo "Cloud Commander Local Tunnel (.lt) (Easy File Browsing): "
+cloudcmd --port 1111 &
+lt --port 1111 &
