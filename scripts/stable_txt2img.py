@@ -57,7 +57,7 @@ def main():
         type=str,
         nargs="?",
         help="dir to write results to",
-        default="outputs/trained_generations"
+        default="trained_generations"
     )
     parser.add_argument(
         "--skip_grid",
