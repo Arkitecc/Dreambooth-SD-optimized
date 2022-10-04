@@ -24,6 +24,7 @@ mkdir -p /home/user/Dreambooth-SD-optimized/reg_images
 mkdir -p /home/user/Dreambooth-SD-optimized/training_images
 mkdir -p /home/user/Dreambooth-SD-optimized/trained_generations
 cd /home/user/Dreambooth-SD-optimized/
+git pull
 conda env create -f environment.yaml
 conda activate ldm
 pip3 install diffusers[training]==0.3.0
